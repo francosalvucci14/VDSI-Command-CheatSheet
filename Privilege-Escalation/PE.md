@@ -9,9 +9,10 @@ linPEAS si usa per trovare vulnerabilità in modo tale da riuscire a entrare nel
 Link per scaricare linPEAS.sh -> [Link](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS)
 
 Esecuzione 
-```math
-\begin{align}&chmod +x linPEAS.sh\\./linPEAS.sh\end{align}
-```
+
+- `chmod +x linPEAS.sh`
+- `./linPEAS.sh`
+
 
 ## GTFOBins
 
