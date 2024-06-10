@@ -38,4 +38,6 @@ Per un chiarimento migliore rimando a queste guide :
 - Parte 4 -> [GUIDA](https://valsamaras.medium.com/introduction-to-x64-linux-binary-exploitation-part-4-stack-canaries-e9b6dd2c3127) Spiega gli stack canaries
 - Parte 5 -> [GUIDA](https://valsamaras.medium.com/introduction-to-x64-linux-binary-exploitation-part-5-aslr-394d0dc8e4fb) Spiega ASRL
 
+### Tutorial
 
+Vedere questa macchina per spiegazioni dettagliate e un tutorial su come creare l'expploit [Macchina](https://tryhackme.com/r/room/ret2libc)
