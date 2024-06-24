@@ -31,6 +31,8 @@ cat /proc/sys/kernel/randomize_va_space
 
 Se il risultato è 2, significa che ASRL è attivo, se il risultato è 1 significa che non è attivo
 
+Per vedere se questi bit sono attivi sul binario, lanciare il comando `checksec <binario>`
+
 Per un chiarimento migliore rimando a queste guide :
 - Parte 1 -> [GUIDA](https://valsamaras.medium.com/introduction-to-x64-linux-binary-exploitation-part-1-14ad4a27aeef) Basic Buffer Overflow
 - Parte 2 -> [GUIDA](https://valsamaras.medium.com/introduction-to-x64-binary-exploitation-part-2-return-into-libc-c325017f465) Attacco di tipo `ret2libc`
