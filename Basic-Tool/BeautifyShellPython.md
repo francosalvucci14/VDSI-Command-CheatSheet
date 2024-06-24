@@ -30,6 +30,18 @@ Step 3:
 Step 4:
     - Ora lanciamo `fg`
 
+## Secondo metodo (quello funzionante)
 
+Step 1 : 
+    - Sulla shell del target fare -> `SHELL=/bin/bash script -q /dev/null`
+
+Step 2 :
+    - Poi fare `Ctrl-Z`
+
+Step 3 : 
+    - Poi `stty raw -echo && fg`
+
+Step 4 : 
+    - Quando si ritorna sulla shell fare `reset` e poi, alla domanda che ti verrà posta rispondere `xterm`
 
 
