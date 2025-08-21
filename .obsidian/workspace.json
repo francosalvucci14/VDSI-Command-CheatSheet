@@ -176,8 +176,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc3301558254ff2a",
+  "active": "9cdbc817b7ea9b55",
   "lastOpenFiles": [
+    "Privilege-Escalation/ret2libc_ASLR_disattivato.py",
+    "Privilege-Escalation/ret2libc_ASLR_attivo.py",
     "Password-Cracking/HashCat.md",
     "Password-Cracking/John the Ripper.md",
     "Commands 'n tools- 2025.md"
