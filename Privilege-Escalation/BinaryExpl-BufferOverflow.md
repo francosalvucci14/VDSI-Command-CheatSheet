@@ -8,7 +8,7 @@ Prima di vedere i comandi dobbiamo parlare dei bit `NX` e `ASRL`, parlare della 
 
 NX = No eXecute 
 
-Il bit NX è un bit che, se abilitato, ci dice che non possiamo eseguire i `shellcode` custom tramite lo stack, e per bypassarlo dobbiamo usare un attacco di tipo `ret2libc` 
+Il bit NX è un bit che, se abilitato, ci dice che non possiamo eseguire i nosti `shellcode` tramite lo stack, e per bypassarlo dobbiamo usare un attacco di tipo `ret2libc` 
 
 ## PIE
 
@@ -43,3 +43,15 @@ Per un chiarimento migliore rimando a queste guide :
 ### Tutorial
 
 Vedere questa macchina per spiegazioni dettagliate e un tutorial su come creare l'expploit [Macchina](https://tryhackme.com/r/room/ret2libc)
+
+### GUIDA
+
+Questo sito offre un riassunto molto dettagliato su tutta la parte di BinaryExploitation e BufferOverlfow.
+
+Il sito è il seguente : [Sito](https://ctf101.org/binary-exploitation/overview/)
+
+### Spiegazione e dettagli 
+
+In questo sito possiamo trovare una spiegazione molto dettagliata su tutti gli argomenti che formano il Binary Exploitation 
+
+Il sito è il seguente -> [Spiegazione](https://ir0nstone.gitbook.io/notes/types/stack)
