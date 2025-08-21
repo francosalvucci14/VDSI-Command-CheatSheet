@@ -1,3 +1,4 @@
+	sudo apt-get install hashcat
 # Cos'é HashCat
 Hashcat è uno strumento di recupero password avanzato che sfrutta la potenza di calcolo delle GPU per eseguire attacchi di: bruteforcing, combination attack, mask attack e dizionari su hash delle password. Supporta una vasta gamma di algoritmi di hashing ed è noto per la sua velocità ed efficienza.
 

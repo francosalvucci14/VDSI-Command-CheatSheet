@@ -1,3 +1,4 @@
+	sudo apt-get install john
 # Cos'é John?
 John the Ripper è un popolare strumento open source per il cracking delle password. È utilizzato principalmente per testare la sicurezza delle password e può eseguire attacchi di bruteforcing e basati su dizionari su vari algoritmi di hashing delle password. John the Ripper supporta un'ampia gamma di formati di hash, tra cui MD5, SHA, bcrypt, ecc.
 
