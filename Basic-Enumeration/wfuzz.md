@@ -1,0 +1,1 @@
+`wfuzz -c -z file,/usr/share/`

@@ -24,7 +24,7 @@ Per qualunque informazione lanciare il comando `man nmap`
 ## Esempio di Attacco
 
 `nmap -A -T4 scanme.nmap.org`
-
+```terminal
            Nmap scan report for scanme.nmap.org (74.207.244.221)
            Host is up (0.029s latency).
            rDNS record for 74.207.244.221: li86-221.members.linode.com
@@ -52,4 +52,4 @@ Per qualunque informazione lanciare il comando `man nmap`
 
            Nmap done: 1 IP address (1 host up) scanned in 14.40 seconds
 
-
+```

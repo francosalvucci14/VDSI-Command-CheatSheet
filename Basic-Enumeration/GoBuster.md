@@ -24,11 +24,11 @@ Come le directory, con gobuster possiamo enumerare i virtual host
 
 Per enumerare i virtual host, basta modificare l'opzione `dir` con `vhost`, e alla fine del comando scrivere `--append-domain`
 
-## Enumerazioe (DAVIDE)
+## Enumerazione 
 
 Il tool più usato è GoBuster, che punta ad un url o ad una porta e invia richieste http get al sito utilizzando le wordlist. Se l'url da risposte positive (200) esistono sottocartelle in quel sito, e gobuster le mostra. Da usare in questo modo:
 
-gobuster dir -u https://buffered.io -w ~/wordlists/shortlist.txt
+`gobuster dir -u https://buffered.io -w ~/wordlists/shortlist.txt`
 
 Dove:
 -u = Richiesta dell'url
@@ -40,4 +40,5 @@ Altre flag utili:
 
 Altro esempio comune:
 
-gobuster dir -u https://mysite.com/path/to/folder -c 'session=123456' -t 50 -w common-files.txt -x .php,.html
+`gobuster dir -u https://mysite.com/path/to/folder -c 'session=123456' -t 50 -w common-files.txt -x .php,.html
+`
