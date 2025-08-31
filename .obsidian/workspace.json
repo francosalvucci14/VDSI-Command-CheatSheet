@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Commands 'n tools- 2025.md",
+                "file": "Web-Command/LFI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Commands 'n tools- 2025"
+              "title": "LFI"
             }
           }
         ],
@@ -194,8 +194,11 @@
   },
   "active": "c10099508f9300b1",
   "lastOpenFiles": [
-    "Basic-Tool/Dig.md",
+    "Web-Command/SQL-Inj.md",
+    "Web-Command/RFI.md",
+    "Web-Command/LFI.md",
     "Commands 'n tools- 2025.md",
+    "Basic-Tool/Dig.md",
     "Basic-Enumeration/Nmap.md",
     "img",
     "img/Pasted image 20250829164220.png",

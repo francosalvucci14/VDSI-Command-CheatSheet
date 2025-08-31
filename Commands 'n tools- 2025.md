@@ -26,3 +26,18 @@
 - DNSenum
 - Fierce
 - Whois
+
+
+*Packet Sniffer*
+
+- `tcpdump`
+	- Packet Sniffer CLI based su linux. L'output viene filtrato in base a porte, host, interfacce ecc..
+```bash
+$sudo tcpdump -i eth0
+>> 11:37:14.857172 IP 192.168.49.1.64664 > 192.168.49.131.ssh: <packet>
+   timestamp           src ip       port    dst ip       dst protocol
+```
+
+Ex.  `sudo tcpdump -i eth0 port 22`
+
+Utilizzo combinato con Wireshark
